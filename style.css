@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #dfdbdb;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6%;
+}
+#navList{
+    position: relative;
+    width: 40%;
+}
+#navList ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 40px; */
+}
+
+#navList ul li{
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#navList ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* hero section */
+#hero{
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+    background-color: #dfdbdb;
+}
+.heroImg{
+    object-fit: contain;
+    opacity: 0.5;
+    object-fit: scale-down;
+}
+.heroImg2{
+    object-fit: contain;
+    opacity: 0.2;
+    object-fit: scale-down;
+}
+button:hover{
+    cursor:pointer;
+}
+#prevBtn{
+    position: absolute;
+    top: 40%;
+    font-weight: bolder;
+    font-size: 6vh;
+    color: gray;
+    border: none;
+    background-color: transparent;
+    padding-left: 2%;
+}
+#nextBtn{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    border: none;
+    font-weight: bolder;
+    font-size: 6vh;
+    color: gray;
+    background-color: transparent;
+    padding-right: 2%;
+}
+.sliderText{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+
+
+/* Arun's journey */
+#arunImg{
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+#arun{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.arunTop{
+    position: relative;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.arunTop div h2{
+    margin-bottom: 25%;
+}
+.arunTop div p{
+    margin-bottom: 20%;
+}
+#Rotate{
+    rotate: 90deg;
+    font-size: 100px;
+}
+
+.journey{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.journey ion-icon{
+    font-size: 50px;
+}
+
+.card{
+    line-height: 30px;
+    position: relative;
+    width: 15%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #dfdbdb;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* courses */
+#courses{
+    position: relative;
+    margin-top: 90px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 2%;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price{
+    margin-top: 10px;
+    border: 1px solid rgb(111, 179, 11);
+    background-color: rgb(111, 179, 11);
+    color: white;
+    padding: 5px;
+    border-radius: 30%;
+}
+
+.course button{
+    margin-top: 10px;
+    border: 1px solid rgb(41, 41, 216);
+    background-color: rgb(41, 41, 216);
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.course{
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    flex-wrap: wrap;
+    border: 1px solid #dfdbdb;
+    border-radius: 40%;
+    padding: 20px;
+    line-height: 30px;
+    gap: 20px;
+}
+
+.course:hover{
+    width: 25vw;
+    /* height: 45vh; */
+}
+
+footer{
+    position: relative;
+    margin-top: 10%;
+    height: 20vh;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
